@@ -67,7 +67,7 @@
     border-radius: 8px;
 }
 .background{
-   background: url('book_bg.jpg');
+   background: url('book.jpg');
    background-size: cover;
    background-blend-mode: darken;
     
