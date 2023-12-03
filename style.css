@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+   
+
+}
+.nav-list {
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.nav-list li  {
+    list-style-type: none;
+    padding: 20px 26px;
+
+    
+}
+.nav-list li a {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: white;
+
+
+    
+}
+.nav-list li a:hover {
+    text-decoration: none;
+    color: grey;
+
+
+    
+}
+.rightnav{
+   
+    
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding: 2px;
+    font-size: 17px;
+    border-radius: 8px;
+}
+.background{
+   background:  url('../img/book_bg.jpg');
+   background-size: cover;
+   background-blend-mode: darken;
+    
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 70%;
+}
+.first-section{
+     height: 100vh; 
+}
+.fisthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.text-big{
+  font-size: 55px;
+  text-align: center;
+  color: white;
+  
+}
+.text-small{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+     
+}
+.secondhalf img{
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 70px;
+    
+}
+.btn{
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    background: none;
+    cursor: pointer;
+}
+.btn:hover{
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 8px;
+    font-size: 14px;
+    background: white;
+    cursor: pointer;
+}
+.btn-sm{
+   
+    vertical-align: middle;
+
+}
+.rightnav{
+    padding: 0 23px;
+}
+.section{
+   height: 350px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   max-width: 80%;
+   margin: auto;
+}
+.thumbnail img{
+    margin-left: 50px;
+    width: 50vh;
+    height: 40vh;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.sectextb{
+    font-size: 40px;
+    font-family: 'Nova Square', sans-serif;
+}
+.paras{
+    padding: 0 65px;
+}
+.sec-left{
+    height: 350px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   max-width: 80%;
+   margin: auto;
+   flex-direction: row-reverse;
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sectionTag{
+    padding: 16px 0;
+}
+.contactus{
+    background-color: azure;
+    height: 90vh;
+}
+.text-center{
+    text-align: center;
+    padding: 30px;
+   font-family:sans-serif;}
+.form{
+    max-width: 500px;
+
+    margin: auto;
+}
+.form-input{
+    margin: 14px 0px;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 18px;
+    /* padding: 5px; */
+    border: 2px solid gray;
+    border-radius: 6px;
+
+
+
+}
+.btn-dark{
+    color: black;
+    border: 2px solid black;
+}
+.text-fotter{
+    text-align: center;
+   
+   font-family:sans-serif;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+.buttons {
+       padding-left: 400px;
+       padding-top: 30px;
+}
